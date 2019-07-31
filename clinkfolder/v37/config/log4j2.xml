@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<!--
+**********************************************************************************************************
+Compliance Link logs three types of activities.
+ 1. Application Errors: Any Errors that might cause unexpected behavior
+ 2. Administrative Events: User/Security related activities performed by Application Administrators
+ 3. Application Audit Events: Application Events Performed by Users of applications or automatic events.
+
+ Configuration Information.
+ 1. Define various appenders based on your needs. At least three (one for each category specified above)
+ 2. Associate appenders to Category. One category can have more than one appender.
+
+ NOTE: Please do not change structure of XML File. It must be in this sequence,
+ 1. appenders 2. loggers/categories 3. root category
+
+ By Default, all Log paths are defaulted to log directory under your tomcat server.
+ *********************************************************************************************************
+ -->
+
+<Configuration status="INFO" verbose="true">
+
+    <Properties>
+        <!-- log base folder for compliance link -->
+        <Property name="log.base">/data/accuity/clink</Property>
+
+        <!-- email and smtp properties for notification fatal error -->
+        <Property name="subject">ComplianceLink Notification Error</Property>
+        <Property name="to">support@company.com</Property>
+        <Property name="from">clink-notification@company.com</Property>
+        <Property name="smtpHost">localhost</Property>
+        <Property name="smtpPort">25</Property>
+        <property name="smtpProtocol">smtp</property>
+        <property name="smtpUser"/>
+        <property name="smtpPassword"/>
+        <Property name="bufferSize">50</Property>
+    </Properties>
+
+    <Appenders>
+
+        <!--<Console name="Console" target="SYSTEM_OUT">-->
+        <!--<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>-->
+        <!--</Console>-->
+
+        <RollingFile name="allOtherMessagesThatAreNotHandled" fileName="${log.base}/logs/clapp.log"
+                     filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="250 MB"/>
+            </Policies>
+            <PatternLayout>
+                <pattern>[%d{MM/dd/yyyy HH:mm:ss,SSS}][%5p][%C] %m%n</pattern>
+            </PatternLayout>
+        </RollingFile>
+
+        <RollingFile name="apperrors" fileName="${log.base}/logs/app-errors.log"
+                     filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="250 MB"/>
+            </Policies>
+            <PatternLayout>
+                <pattern>[%d{MM/dd/yyyy HH:mm:ss,SSS}][%5p][%C] %m%n</pattern>
+            </PatternLayout>
+        </RollingFile>
+
+        <SMTP name="apperrorsEMAIL"
+                   subject="EmailSubject For Example: Clink App Errors"
+                   to="CommaSeparatedEmailAddresses"
+                   from="FromEmailAddress"
+                   smtpHost="SMTP Mail Host Value"
+                   smtpDebug="false"
+                   bufferSize="128">
+            <ThresholdFilter level="ERROR" onMatch="NEUTRAL" onMismatch="DENY" />
+            <PatternLayout>
+                <pattern>[%d{MM/dd/yyyy HH:mm:ss,SSS}][%5p][%C] %m%n</pattern>
+            </PatternLayout>
+        </SMTP>
+
+        <!--<Async name="apperrorsEMAIL"> -->
+        <!--<AppenderRef ref="Mailer"/> -->
+        <!--</Async> -->
+
+        <RollingFile name="adminevents" fileName="${log.base}/logs/admin-events.log"
+                     filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="250 MB"/>
+            </Policies>
+            <PatternLayout>
+                <pattern>[%d{MM/dd/yyyy HH:mm:ss,SSS}][%5p][%C] %m%n</pattern>
+            </PatternLayout>
+        </RollingFile>
+
+        <RollingFile name="appevents" fileName="${log.base}/logs/app-events.log"
+                     filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="250 MB"/>
+            </Policies>
+            <PatternLayout>
+                <pattern>[%d{MM/dd/yyyy HH:mm:ss,SSS}][%5p][%C] %m%n</pattern>
+            </PatternLayout>
+        </RollingFile>
+
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="allOtherMessagesThatAreNotHandled"/>
+        </Root>
+
+        <!-- ASSOCIATE APPENDERS TO CATEGORIES -->
+        <!-- 1. Category 1: Application Errors -->
+        <Logger name="ApplicationErrors" level="info" additivity="false">
+            <!-- Add Your Appenders Here -->
+            <AppenderRef ref="apperrors"/>
+            <!-- <AppenderRef ref="apperrorsEMAIL"/> -->
+        </Logger>
+
+        <!-- 2. Category 2: Administrative Events -->
+        <Logger name="AdministrativeEvents" level="info" additivity="false">
+            <!-- Add Your Appenders Here -->
+            <AppenderRef ref="adminevents"/>
+        </Logger>
+
+        <!-- 3. Category 3: Notification Errors-->
+        <Logger name="ApplicationAuditEvents" level="info" additivity="false">
+            <AppenderRef ref="appevents"/>
+        </Logger>
+
+    </Loggers>
+</Configuration>

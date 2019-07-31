@@ -1,0 +1,21 @@
+UPIDIndexField=NAME
+UPIDIndexField=ID
+
+UPIDLanguage= en, English
+UPIDLanguage= ru, Russian
+UPIDLanguage= ru-ru, Russian
+UPIDLanguage= uk, Russian
+UPIDLanguage= uk-ua, Russian
+UPIDLanguage= sr, Russian
+UPIDLanguage= sr-ba, Russian
+UPIDLanguage= sr-sp, Russian
+UPIDLanguage= bg, Russian
+UPIDLanguage= bg-bg, Russian
+UPIDLanguage= mk, Russian
+UPIDLanguage= mk-mk, Russian
+UPIDLanguage= be, Russian
+UPIDLanguage= be-by, Russian
+UPIDLanguage= ja, Japanese
+UPIDLanguage= zh-cn, Chinese
+UPIDLanguage= zh-tw, Chinese
+UPIDLanguage= ko, Japanese

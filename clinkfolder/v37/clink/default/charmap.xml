@@ -1,0 +1,595 @@
+<charmap>
+	<asciiset>
+		<ascii id="1"  filtermap=" "/>
+		<ascii id="2"  filtermap=" "/>
+		<ascii id="3"  filtermap=" "/>
+		<ascii id="4"  filtermap=" "/>
+		<ascii id="5"  filtermap=" "/>
+		<ascii id="6"  filtermap=" "/>
+		<ascii id="7"  filtermap=" "/>
+		<ascii id="8"  filtermap=" "/>
+		<ascii id="9"  filtermap=" "/>
+		<ascii id="10"  filtermap=""/>
+		<ascii id="11"  filtermap=" "/>
+		<ascii id="12"  filtermap=" "/>
+		<ascii id="12"  filtermap=""/>
+		<ascii id="14"  filtermap=" "/>
+		<ascii id="15"  filtermap=" "/>
+		<ascii id="16"  filtermap=" "/>
+		<ascii id="17"  filtermap=" "/>
+		<ascii id="18"  filtermap=" "/>
+		<ascii id="19"  filtermap=" "/>
+		<ascii id="20"  filtermap=" "/>
+		<ascii id="21"  filtermap=" "/>
+		<ascii id="22"  filtermap=" "/>
+		<ascii id="23"  filtermap=" "/>
+		<ascii id="24"  filtermap=" "/>
+		<ascii id="25"  filtermap=" "/>
+		<ascii id="26"  filtermap=" "/>
+		<ascii id="27"  filtermap=" "/>
+		<ascii id="28"  filtermap=" "/>
+		<ascii id="29"  filtermap=" "/>
+		<ascii id="30"  filtermap=" "/>
+		<ascii id="31"  filtermap=" "/>
+		<ascii id="32"  filtermap=" "/>
+		<ascii id="33"  filtermap=" "/>
+		<ascii id="34"  filtermap=" "/>
+		<ascii id="35"  filtermap=" "/>
+		<ascii id="36"  filtermap=" "/>
+		<ascii id="37"  filtermap=" "/>
+		<ascii id="38"  filtermap=" "/>
+		<ascii id="39"  filtermap=""/>
+		<ascii id="40"  filtermap=" "/>
+		<ascii id="41"  filtermap=" "/>
+		<ascii id="42"  filtermap=" "/>
+		<ascii id="43"  filtermap=" "/>
+		<ascii id="44"  filtermap=" "/>
+		<ascii id="45"  filtermap=" "/>
+		<ascii id="46"  filtermap=""/>
+		<ascii id="47"  filtermap=" "/>
+		<ascii id="48"  filtermap="0"/>
+		<ascii id="49"  filtermap="1"/>
+		<ascii id="50"  filtermap="2"/>
+		<ascii id="51"  filtermap="3"/>
+		<ascii id="52"  filtermap="4"/>
+		<ascii id="53"  filtermap="5"/>
+		<ascii id="54"  filtermap="6"/>
+		<ascii id="55"  filtermap="7"/>
+		<ascii id="56"  filtermap="8"/>
+		<ascii id="57"  filtermap="9"/>
+		<ascii id="58"  filtermap=" "/>
+		<ascii id="59"  filtermap=" "/>
+		<ascii id="60"  filtermap=" "/>
+		<ascii id="61"  filtermap=" "/>
+		<ascii id="62"  filtermap=" "/>
+		<ascii id="63"  filtermap=" "/>
+		<ascii id="64"  filtermap=" "/>
+		<ascii id="65"  filtermap="A"/>
+		<ascii id="66"  filtermap="B"/>
+		<ascii id="67"  filtermap="C"/>
+		<ascii id="68"  filtermap="D"/>
+		<ascii id="69"  filtermap="E"/>
+		<ascii id="70"  filtermap="F"/>
+		<ascii id="71"  filtermap="G"/>
+		<ascii id="72"  filtermap="H"/>
+		<ascii id="73"  filtermap="I"/>
+		<ascii id="74"  filtermap="J"/>
+		<ascii id="75"  filtermap="K"/>
+		<ascii id="76"  filtermap="L"/>
+		<ascii id="77"  filtermap="M"/>
+		<ascii id="78"  filtermap="N"/>
+		<ascii id="79"  filtermap="O"/>
+		<ascii id="80"  filtermap="P"/>
+		<ascii id="81"  filtermap="Q"/>
+		<ascii id="82"  filtermap="R"/>
+		<ascii id="83"  filtermap="S"/>
+		<ascii id="84"  filtermap="T"/>
+		<ascii id="85"  filtermap="U"/>
+		<ascii id="86"  filtermap="V"/>
+		<ascii id="87"  filtermap="W"/>
+		<ascii id="88"  filtermap="X"/>
+		<ascii id="89"  filtermap="Y"/>
+		<ascii id="90"  filtermap="Z"/>
+		<ascii id="91"  filtermap=" "/>
+		<ascii id="92"  filtermap=" "/>
+		<ascii id="93"  filtermap=" "/>
+		<ascii id="94"  filtermap=" "/>
+		<ascii id="95"  filtermap=" "/>
+		<ascii id="96"  filtermap=""/>
+		<ascii id="97"  filtermap="a"/>
+		<ascii id="98"  filtermap="b"/>
+		<ascii id="99"  filtermap="c"/>
+		<ascii id="100"  filtermap="d"/>
+		<ascii id="101"  filtermap="e"/>
+		<ascii id="102"  filtermap="f"/>
+		<ascii id="103"  filtermap="g"/>
+		<ascii id="104"  filtermap="h"/>
+		<ascii id="105"  filtermap="i"/>
+		<ascii id="106"  filtermap="j"/>
+		<ascii id="107"  filtermap="k"/>
+		<ascii id="108"  filtermap="l"/>
+		<ascii id="109"  filtermap="m"/>
+		<ascii id="110"  filtermap="n"/>
+		<ascii id="111"  filtermap="o"/>
+		<ascii id="112"  filtermap="p"/>
+		<ascii id="113"  filtermap="q"/>
+		<ascii id="114"  filtermap="r"/>
+		<ascii id="115"  filtermap="s"/>
+		<ascii id="116"  filtermap="t"/>
+		<ascii id="117"  filtermap="u"/>
+		<ascii id="118"  filtermap="v"/>
+		<ascii id="119"  filtermap="w"/>
+		<ascii id="120"  filtermap="x"/>
+		<ascii id="121"  filtermap="y"/>
+		<ascii id="122"  filtermap="z"/>
+		<ascii id="123"  filtermap=" "/>
+		<ascii id="124"  filtermap=" "/>
+		<ascii id="125"  filtermap=" "/>
+		<ascii id="126"  filtermap=" "/>
+		<ascii id="127"  filtermap=" "/>
+		<ascii id="128"  filtermap=" "/>
+		<ascii id="129"  filtermap=" "/>
+		<ascii id="130"  filtermap=" "/>
+		<ascii id="131"  filtermap=" "/>
+		<ascii id="132"  filtermap=" "/>
+		<ascii id="133"  filtermap=" "/>
+		<ascii id="134"  filtermap=" "/>
+		<ascii id="135"  filtermap=" "/>
+		<ascii id="136"  filtermap=" "/>
+		<ascii id="137"  filtermap=" "/>
+		<ascii id="138"  filtermap=" "/>
+		<ascii id="139"  filtermap=" "/>
+		<ascii id="140"  filtermap=" "/>
+		<ascii id="141"  filtermap=" "/>
+		<ascii id="142"  filtermap=" "/>
+		<ascii id="143"  filtermap=" "/>
+		<ascii id="144"  filtermap=" "/>
+		<ascii id="145"  filtermap=" "/>
+		<ascii id="146"  filtermap=" "/>
+		<ascii id="147"  filtermap=" "/>
+		<ascii id="148"  filtermap=" "/>
+		<ascii id="149"  filtermap=" "/>
+		<ascii id="150"  filtermap=" "/>
+		<ascii id="151"  filtermap=" "/>
+		<ascii id="152"  filtermap=" "/>
+		<ascii id="153"  filtermap=" "/>
+		<ascii id="154"  filtermap=" "/>
+		<ascii id="155"  filtermap=" "/>
+		<ascii id="156"  filtermap=" "/>
+		<ascii id="157"  filtermap=" "/>
+		<ascii id="158"  filtermap=" "/>
+		<ascii id="159"  filtermap=" "/>
+		<ascii id="160"  filtermap=" "/>
+		<ascii id="161"  filtermap=" "/>
+		<ascii id="162"  filtermap=" "/>
+		<ascii id="163"  filtermap=" "/>
+		<ascii id="164"  filtermap=" "/>
+		<ascii id="165"  filtermap=" "/>
+		<ascii id="166"  filtermap=" "/>
+		<ascii id="167"  filtermap=" "/>
+		<ascii id="168"  filtermap=" "/>
+		<ascii id="169"  filtermap=" "/>
+		<ascii id="170"  filtermap=" "/>
+		<ascii id="171"  filtermap=" "/>
+		<ascii id="172"  filtermap=" "/>
+		<ascii id="173"  filtermap=" "/>
+		<ascii id="174"  filtermap=" "/>
+		<ascii id="175"  filtermap=" "/>
+		<ascii id="176"  filtermap=" "/>
+		<ascii id="177"  filtermap=" "/>
+		<ascii id="178"  filtermap=" "/>
+		<ascii id="179"  filtermap=" "/>
+		<ascii id="180"  filtermap=" "/>
+		<ascii id="181"  filtermap="m"/>
+		<ascii id="182"  filtermap=" "/>
+		<ascii id="183"  filtermap=" "/>
+		<ascii id="184"  filtermap=" "/>
+		<ascii id="185"  filtermap=" "/>
+		<ascii id="186"  filtermap=" "/>
+		<ascii id="187"  filtermap=" "/>
+		<ascii id="188"  filtermap=" "/>
+		<ascii id="189"  filtermap=" "/>
+		<ascii id="190"  filtermap=" "/>
+		<ascii id="191"  filtermap=" "/>
+		<ascii id="192"  filtermap="A"/>
+		<ascii id="193"  filtermap="A"/>
+		<ascii id="194"  filtermap="A"/>
+		<ascii id="195"  filtermap="A"/>
+		<ascii id="196"  filtermap="Ae"/>
+		<ascii id="197"  filtermap="A"/>
+		<ascii id="198"  filtermap="AE"/>
+		<ascii id="199"  filtermap="C"/>
+		<ascii id="200"  filtermap="E"/>
+		<ascii id="201"  filtermap="E"/>
+		<ascii id="202"  filtermap="E"/>
+		<ascii id="203"  filtermap="Ee"/>
+		<ascii id="204"  filtermap="I"/>
+		<ascii id="205"  filtermap="I"/>
+		<ascii id="206"  filtermap="I"/>
+		<ascii id="207"  filtermap="I"/>
+		<ascii id="208"  filtermap="D"/>
+		<ascii id="209"  filtermap="N"/>
+		<ascii id="210"  filtermap="O"/>
+		<ascii id="211"  filtermap="O"/>
+		<ascii id="212"  filtermap="O"/>
+		<ascii id="213"  filtermap="O"/>
+		<ascii id="214"  filtermap="OE"/>
+		<ascii id="215"  filtermap=" "/>
+		<ascii id="216"  filtermap="O"/>
+		<ascii id="217"  filtermap="U"/>
+		<ascii id="218"  filtermap="U"/>
+		<ascii id="219"  filtermap="U"/>
+		<ascii id="220"  filtermap="ue"/>
+		<ascii id="221"  filtermap="Y"/>
+		<ascii id="222"  filtermap="th"/>
+		<ascii id="223"  filtermap="ss"/>
+		<ascii id="224"  filtermap="a"/>
+		<ascii id="225"  filtermap="a"/>
+		<ascii id="226"  filtermap="a"/>
+		<ascii id="227"  filtermap="a"/>
+		<ascii id="228"  filtermap="ae"/>
+		<ascii id="229"  filtermap="a"/>
+		<ascii id="230"  filtermap="ae"/>
+		<ascii id="231"  filtermap="c"/>
+		<ascii id="232"  filtermap="e"/>
+		<ascii id="233"  filtermap="e"/>
+		<ascii id="234"  filtermap="e"/>
+		<ascii id="235"  filtermap="ee"/>
+		<ascii id="236"  filtermap="i"/>
+		<ascii id="237"  filtermap="i"/>
+		<ascii id="238"  filtermap="i"/>
+		<ascii id="239"  filtermap="I"/>
+		<ascii id="240"  filtermap="a"/>
+		<ascii id="241"  filtermap="n"/>
+		<ascii id="242"  filtermap="o"/>
+		<ascii id="243"  filtermap="o"/>
+		<ascii id="244"  filtermap="o"/>
+		<ascii id="245"  filtermap="o"/>
+		<ascii id="246"  filtermap="oe"/>
+		<ascii id="247"  filtermap=" "/>
+		<ascii id="248"  filtermap="o"/>
+		<ascii id="249"  filtermap="u"/>
+		<ascii id="250"  filtermap="u"/>
+		<ascii id="251"  filtermap="u"/>
+		<ascii id="252"  filtermap="ue"/>
+		<ascii id="253"  filtermap="y"/>
+		<ascii id="254"  filtermap=" "/>
+		<ascii id="255"  filtermap="y"/>
+		<ascii id="256"  filtermap="A"/>
+		<ascii id="257"  filtermap="a"/>
+		<ascii id="258"  filtermap="A"/>
+		<ascii id="259"  filtermap="a"/>
+		<ascii id="260"  filtermap="A"/>
+		<ascii id="261"  filtermap="a"/>
+		<ascii id="262"  filtermap="C"/>
+		<ascii id="263"  filtermap="c"/>
+		<ascii id="264"  filtermap="C"/>
+		<ascii id="265"  filtermap="c"/>
+		<ascii id="266"  filtermap="C"/>
+		<ascii id="267"  filtermap="c"/>
+		<ascii id="268"  filtermap="C"/>
+		<ascii id="269"  filtermap="c"/>
+		<ascii id="270"  filtermap="D"/>
+		<ascii id="271"  filtermap="d"/>
+		<ascii id="272"  filtermap="D"/>
+		<ascii id="273"  filtermap="d"/>
+		<ascii id="274"  filtermap="E"/>
+		<ascii id="275"  filtermap="e"/>
+		<ascii id="276"  filtermap="E"/>
+		<ascii id="277"  filtermap="e"/>
+		<ascii id="278"  filtermap="E"/>
+		<ascii id="279"  filtermap="e"/>
+		<ascii id="280"  filtermap="E"/>
+		<ascii id="281"  filtermap="e"/>
+		<ascii id="282"  filtermap="E"/>
+		<ascii id="283"  filtermap="e"/>
+		<ascii id="284"  filtermap="G"/>
+		<ascii id="285"  filtermap="g"/>
+		<ascii id="286"  filtermap="G"/>
+		<ascii id="287"  filtermap="g"/>
+		<ascii id="288"  filtermap="G"/>
+		<ascii id="289"  filtermap="g"/>
+		<ascii id="290"  filtermap="G"/>
+		<ascii id="291"  filtermap="g"/>
+		<ascii id="292"  filtermap="H"/>
+		<ascii id="293"  filtermap="h"/>
+		<ascii id="294"  filtermap="H"/>
+		<ascii id="295"  filtermap="h"/>
+		<ascii id="296"  filtermap="I"/>
+		<ascii id="297"  filtermap="i"/>
+		<ascii id="298"  filtermap="I"/>
+		<ascii id="299"  filtermap="i"/>
+		<ascii id="300"  filtermap="I"/>		
+		<ascii id="301"  filtermap="i"/>
+		<ascii id="302"  filtermap="I"/>
+		<ascii id="303"  filtermap="i"/>
+		<ascii id="304"  filtermap="I"/>
+		<ascii id="305"  filtermap="i"/>
+		<ascii id="306"  filtermap=" "/>
+		<ascii id="307"  filtermap=" "/>
+		<ascii id="308"  filtermap="J"/>
+		<ascii id="309"  filtermap="j"/>
+		<ascii id="310"  filtermap="K"/>
+		<ascii id="311"  filtermap="k"/>
+		<ascii id="312"  filtermap=" "/>
+		<ascii id="313"  filtermap="L"/>
+		<ascii id="314"  filtermap="l"/>
+		<ascii id="315"  filtermap="L"/>
+		<ascii id="316"  filtermap="l"/>
+		<ascii id="317"  filtermap="L"/>
+		<ascii id="318"  filtermap="l"/>
+		<ascii id="319"  filtermap="L"/>
+		<ascii id="320"  filtermap="l"/>
+		<ascii id="321"  filtermap="L"/>
+		<ascii id="322"  filtermap="l"/>
+		<ascii id="323"  filtermap="N"/>
+		<ascii id="324"  filtermap="n"/>
+		<ascii id="325"  filtermap="N"/>
+		<ascii id="326"  filtermap="n"/>
+		<ascii id="327"  filtermap="N"/>
+		<ascii id="328"  filtermap="n"/>
+		<ascii id="329"  filtermap=" "/>
+		<ascii id="330"  filtermap=" "/>
+		<ascii id="331"  filtermap=" "/>
+		<ascii id="332"  filtermap="O"/>
+		<ascii id="333"  filtermap="o"/>
+		<ascii id="334"  filtermap="O"/>
+		<ascii id="335"  filtermap="o"/>
+		<ascii id="336"  filtermap="O"/>
+		<ascii id="337"  filtermap="o"/>
+		<ascii id="338"  filtermap="OE"/>
+		<ascii id="339"  filtermap="oe"/>
+		<ascii id="340"  filtermap="R"/>
+		<ascii id="341"  filtermap="r"/>
+		<ascii id="342"  filtermap="R"/>
+		<ascii id="343"  filtermap="r"/>
+		<ascii id="344"  filtermap="R"/>
+		<ascii id="345"  filtermap="r"/>
+		<ascii id="346"  filtermap="S"/>
+		<ascii id="347"  filtermap="s"/>
+		<ascii id="348"  filtermap="S"/>
+		<ascii id="349"  filtermap="s"/>
+		<ascii id="350"  filtermap="S"/>
+		<ascii id="351"  filtermap="S"/>
+		<ascii id="352"  filtermap="S"/>
+		<ascii id="353"  filtermap="s"/>
+		<ascii id="354"  filtermap="T"/>
+		<ascii id="355"  filtermap="t"/>
+		<ascii id="356"  filtermap="T"/>
+		<ascii id="357"  filtermap="t"/>
+		<ascii id="358"  filtermap="T"/>
+		<ascii id="359"  filtermap="t"/>
+		<ascii id="360"  filtermap="U"/>
+		<ascii id="361"  filtermap="u"/>
+		<ascii id="362"  filtermap="U"/>
+		<ascii id="363"  filtermap="u"/>
+		<ascii id="364"  filtermap="U"/>
+		<ascii id="365"  filtermap="u"/>
+		<ascii id="366"  filtermap="U"/>
+		<ascii id="367"  filtermap="u"/>
+		<ascii id="368"  filtermap="U"/>
+		<ascii id="369"  filtermap="u"/>
+		<ascii id="370"  filtermap="U"/>
+		<ascii id="371"  filtermap="u"/>
+		<ascii id="372"  filtermap="W"/>
+		<ascii id="373"  filtermap="w"/>
+		<ascii id="374"  filtermap="Y"/>
+		<ascii id="375"  filtermap="y"/>
+		<ascii id="376"  filtermap="Y"/>
+		<ascii id="377"  filtermap="Z"/>
+		<ascii id="378"  filtermap="z"/>
+		<ascii id="379"  filtermap="Z"/>
+		<ascii id="380"  filtermap="z"/>
+		<ascii id="381"  filtermap="Z"/>
+		<ascii id="382"  filtermap="z"/>
+		<ascii id="383"  filtermap=" "/>
+		<ascii id="384"  filtermap=" "/>
+		<ascii id="385"  filtermap=" "/>
+		<ascii id="386"  filtermap=" "/>
+		<ascii id="387"  filtermap=" "/>
+		<ascii id="388"  filtermap=" "/>
+		<ascii id="389"  filtermap=" "/>
+		<ascii id="390"  filtermap=" "/>
+		<ascii id="391"  filtermap="C"/>
+		<ascii id="392"  filtermap="c"/>
+		<ascii id="393"  filtermap=" "/>
+		<ascii id="394"  filtermap=" "/>
+		<ascii id="395"  filtermap=" "/>
+		<ascii id="396"  filtermap=" "/>
+		<ascii id="397"  filtermap=" "/>
+		<ascii id="398"  filtermap=" "/>
+		<ascii id="399"  filtermap="A"/>
+		<ascii id="400"  filtermap=" "/>		
+		<ascii id="401"  filtermap="F"/>
+		<ascii id="402"  filtermap="f"/>
+		<ascii id="403"  filtermap=" "/>
+		<ascii id="404"  filtermap=" "/>
+		<ascii id="405"  filtermap=" "/>
+		<ascii id="406"  filtermap=" "/>
+		<ascii id="407"  filtermap=" "/>
+		<ascii id="408"  filtermap="K"/>
+		<ascii id="409"  filtermap="k"/>
+		<ascii id="410"  filtermap=" "/>
+		<ascii id="411"  filtermap=" "/>
+		<ascii id="412"  filtermap=" "/>
+		<ascii id="413"  filtermap=" "/>
+		<ascii id="414"  filtermap=" "/>
+		<ascii id="415"  filtermap=" "/>
+		<ascii id="416"  filtermap="O"/>
+		<ascii id="417"  filtermap="o"/>
+		<ascii id="418"  filtermap=" "/>
+		<ascii id="419"  filtermap=" "/>
+		<ascii id="420"  filtermap=" "/>
+		<ascii id="421"  filtermap=" "/>
+		<ascii id="422"  filtermap=" "/>
+		<ascii id="423"  filtermap=" "/>
+		<ascii id="424"  filtermap=" "/>
+		<ascii id="425"  filtermap=" "/>
+		<ascii id="426"  filtermap=" "/>
+		<ascii id="427"  filtermap=" "/>
+		<ascii id="428"  filtermap=" "/>
+		<ascii id="429"  filtermap=" "/>
+		<ascii id="430"  filtermap=" "/>
+		<ascii id="431"  filtermap="U"/>
+		<ascii id="432"  filtermap="u"/>
+		<ascii id="433"  filtermap=" "/>
+		<ascii id="434"  filtermap=" "/>
+		<ascii id="435"  filtermap="Y"/>
+		<ascii id="436"  filtermap="y"/>
+		<ascii id="437"  filtermap="Z"/>
+		<ascii id="438"  filtermap="z"/>
+		<ascii id="439"  filtermap=" "/>
+		<ascii id="440"  filtermap=" "/>
+		<ascii id="441"  filtermap=" "/>
+		<ascii id="442"  filtermap=" "/>
+		<ascii id="443"  filtermap=" "/>
+		<ascii id="444"  filtermap=" "/>
+		<ascii id="445"  filtermap=" "/>
+		<ascii id="446"  filtermap=" "/>
+		<ascii id="447"  filtermap=" "/>
+		<ascii id="448"  filtermap=" "/>
+		<ascii id="449"  filtermap=" "/>
+		<ascii id="450"  filtermap=" "/>
+		<ascii id="451"  filtermap=" "/>
+		<ascii id="452"  filtermap=" "/>
+		<ascii id="453"  filtermap=" "/>
+		<ascii id="454"  filtermap=" "/>
+		<ascii id="455"  filtermap=" "/>
+		<ascii id="456"  filtermap=" "/>
+		<ascii id="457"  filtermap=" "/>
+		<ascii id="458"  filtermap=" "/>
+		<ascii id="459"  filtermap=" "/>
+		<ascii id="460"  filtermap=" "/>
+		<ascii id="461"  filtermap="A"/>
+		<ascii id="462"  filtermap="a"/>
+		<ascii id="463"  filtermap="I"/>
+		<ascii id="464"  filtermap="i"/>
+		<ascii id="465"  filtermap="O"/>
+		<ascii id="466"  filtermap="o"/>
+		<ascii id="467"  filtermap="U"/>
+		<ascii id="468"  filtermap="u"/>
+		<ascii id="469"  filtermap="U"/>
+		<ascii id="470"  filtermap="u"/>
+		<ascii id="471"  filtermap="U"/>
+		<ascii id="472"  filtermap="u"/>
+		<ascii id="473"  filtermap="U"/>
+		<ascii id="474"  filtermap="u"/>
+		<ascii id="475"  filtermap="U"/>
+		<ascii id="476"  filtermap="u"/>
+		<ascii id="477"  filtermap=" "/>
+		<ascii id="478"  filtermap="A"/>
+		<ascii id="479"  filtermap="a"/>
+		<ascii id="480"  filtermap="A"/>
+		<ascii id="481"  filtermap="a"/>
+		<ascii id="482"  filtermap=" "/>
+		<ascii id="483"  filtermap=" "/>
+		<ascii id="484"  filtermap="G"/>
+		<ascii id="485"  filtermap="g"/>
+		<ascii id="486"  filtermap="G"/>
+		<ascii id="487"  filtermap="g"/>
+		<ascii id="488"  filtermap="K"/>
+		<ascii id="489"  filtermap="k"/>
+		<ascii id="490"  filtermap=" "/>
+		<ascii id="491"  filtermap=" "/>
+		<ascii id="492"  filtermap=" "/>
+		<ascii id="493"  filtermap=" "/>
+		<ascii id="494"  filtermap=" "/>
+		<ascii id="495"  filtermap=" "/>
+		<ascii id="496"  filtermap=" "/>
+		<ascii id="497"  filtermap=" "/>
+		<ascii id="498"  filtermap=" "/>
+		<ascii id="499"  filtermap=" "/>
+		<ascii id="500"  filtermap=" "/>		
+		<ascii id="501"  filtermap=" "/>
+		<ascii id="502"  filtermap=" "/>
+		<ascii id="503"  filtermap=" "/>
+		<ascii id="504"  filtermap=" "/>
+		<ascii id="505"  filtermap=" "/>
+		<ascii id="506"  filtermap="A"/>
+		<ascii id="507"  filtermap="a"/>
+		<ascii id="508"  filtermap=" "/>
+		<ascii id="509"  filtermap=" "/>
+		<ascii id="510"  filtermap=" "/>
+		<ascii id="511"  filtermap=" "/>
+		<ascii id="512"  filtermap="A"/>
+		<ascii id="513"  filtermap="a"/>
+		<ascii id="514"  filtermap="A"/>
+		<ascii id="515"  filtermap="a"/>
+		<ascii id="516"  filtermap="E"/>
+		<ascii id="517"  filtermap="e"/>
+		<ascii id="518"  filtermap="E"/>
+		<ascii id="519"  filtermap="e"/>
+		<ascii id="520"  filtermap="I"/>
+		<ascii id="521"  filtermap="i"/>
+		<ascii id="522"  filtermap="I"/>
+		<ascii id="523"  filtermap="i"/>
+		<ascii id="524"  filtermap="O"/>
+		<ascii id="525"  filtermap="o"/>
+		<ascii id="526"  filtermap="O"/>
+		<ascii id="527"  filtermap="o"/>
+		<ascii id="528"  filtermap="R"/>
+		<ascii id="529"  filtermap="r"/>
+		<ascii id="530"  filtermap="R"/>
+		<ascii id="531"  filtermap="r"/>
+		<ascii id="532"  filtermap="U"/>
+		<ascii id="533"  filtermap="u"/>
+		<ascii id="534"  filtermap="U"/>
+		<ascii id="535"  filtermap="u"/>
+		<ascii id="536"  filtermap="S"/>
+		<ascii id="537"  filtermap="s"/>
+		<ascii id="538"  filtermap="T"/>
+		<ascii id="539"  filtermap="t"/>
+		<ascii id="540"  filtermap=" "/>
+		<ascii id="541"  filtermap=" "/>
+		<ascii id="542"  filtermap=" "/>
+		<ascii id="543"  filtermap=" "/>
+		<ascii id="544"  filtermap=" "/>
+		<ascii id="545"  filtermap=" "/>
+		<ascii id="546"  filtermap=" "/>
+		<ascii id="547"  filtermap=" "/>
+		<ascii id="548"  filtermap="Z"/>
+		<ascii id="549"  filtermap="z"/>
+		<ascii id="550"  filtermap="A"/>
+		<ascii id="551"  filtermap="a"/>
+		<ascii id="552"  filtermap="E"/>
+		<ascii id="553"  filtermap="e"/>
+		<ascii id="554"  filtermap="O"/>
+		<ascii id="555"  filtermap="o"/>
+		<ascii id="556"  filtermap="O"/>
+		<ascii id="557"  filtermap="o"/>
+		<ascii id="558"  filtermap="O"/>
+		<ascii id="559"  filtermap="o"/>
+		<ascii id="560"  filtermap="O"/>
+		<ascii id="561"  filtermap="o"/>
+		<ascii id="562"  filtermap="Y"/>
+		<ascii id="563"  filtermap="y"/>
+		<ascii id="564"  filtermap=" "/>
+		<ascii id="565"  filtermap=" "/>
+		<ascii id="566"  filtermap=" "/>
+		<ascii id="567"  filtermap=" "/>
+		<ascii id="568"  filtermap=" "/>
+		<ascii id="569"  filtermap=" "/>
+		<ascii id="570"  filtermap=" "/>
+		<ascii id="571"  filtermap=" "/>
+		<ascii id="572"  filtermap=" "/>
+		<ascii id="573"  filtermap=" "/>
+		<ascii id="574"  filtermap=" "/>
+		<ascii id="575"  filtermap=" "/>
+		<ascii id="576"  filtermap=" "/>
+		<ascii id="577"  filtermap=" "/>
+		<ascii id="578"  filtermap=" "/>
+		<ascii id="579"  filtermap=" "/>
+		<ascii id="580"  filtermap=" "/>
+		<ascii id="581"  filtermap=" "/>
+		<ascii id="582"  filtermap=" "/>
+		<ascii id="583"  filtermap=" "/>
+		<ascii id="584"  filtermap=" "/>
+		<ascii id="585"  filtermap=" "/>
+		<ascii id="586"  filtermap=" "/>
+		<ascii id="587"  filtermap=" "/>
+		<ascii id="588"  filtermap="R"/>
+		<ascii id="589"  filtermap="r"/>
+		<ascii id="590"  filtermap="Y"/>
+		<ascii id="591"  filtermap="y"/>
+	</asciiset>
+</charmap>
