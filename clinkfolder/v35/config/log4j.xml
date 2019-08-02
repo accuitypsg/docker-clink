@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<!-- 
+********************************************************************************************************** 
+    Compliance Link logs three types of activities. 1. Application Errors: Any 
+    Errors that might cause unexpected behavior 2. Administrative Events: User/Security 
+    related activities performed by Application Administrators 3. Application 
+    Audit Events: Application Events Performed by Users of applications or automatic 
+    events. Configuration Information. 1. Define various appenders based on your 
+    needs. At least three (one for each category specified above) 2. Associate 
+    appenders to Category. One category can have more than one appender. NOTE: 
+    Please do not change structure of XML File. It must be in this sequence, 
+    1. appenders 2. loggers/categories 3. root category By Default, all Log paths 
+    are defaulted to log directory under your tomcat server. 
+********************************************************************************************************* 
+-->
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+    <appender name="allOtherMessagesThatAreNotHandled" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="/data/accuity/clink/logs/clapp.log" />
+        <param name="Threshold" value="INFO" />
+        <param name="DatePattern" value="'.'yyyy-MM-dd" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                value="[%d{MM/dd/yyyy HH:mm:ss,SSS}][%5p][%C] %m%n" />
+        </layout>
+        <filter class="org.apache.log4j.varia.StringMatchFilter">
+            <param name="StringToMatch" value="com." />
+            <param name="AcceptOnMatch" value="false" />
+        </filter>
+    </appender>
+
+    <!-- DEFINE YOUR APPENDERS HERE -->
+    <appender name="apperrors" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="/data/accuity/clink/logs/app-errors.log" />
+        <param name="Threshold" value="INFO" />
+        <param name="DatePattern" value="'.'yyyy-MM-dd" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                value="[%d{MM/dd/yyyy HH:mm:ss,SSS}][%5p][%C] %m%n" />
+        </layout>
+    </appender>
+
+    <appender name="apperrorsEMAIL" class="org.apache.log4j.net.SMTPAppender">
+        <param name="Threshold" value="ERROR" />
+        <param name="BufferSize" value="128" />
+        <param name="From" value="complianceLink@yourdomain.com" />
+        <param name="To" value="admin@yourdomain.com" />
+        <param name="Subject" value="Compliance Link Beta Errors" />
+        <param name="SMTPHost" value="mailhost" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                value="[%d{MM/dd/yyyy HH:mm:ss,SSS}][%5p][%C] %m%n" />
+        </layout>
+    </appender>
+
+    <!-- Appender for CL Admin Events -->
+    <appender name="adminevents" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="/data/accuity/clink/logs/admin-events.log" />
+        <param name="Threshold" value="INFO" />
+        <param name="DatePattern" value="'.'yyyy-MM-dd" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                value="[%d{MM/dd/yyyy HH:mm:ss,SSS}][%5p][%C] %m%n" />
+        </layout>
+    </appender>
+
+    <!-- Appender for Application Audit Events -->
+    <appender name="appevents" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="/data/accuity/clink/logs/app-events.log" />
+        <param name="Threshold" value="INFO" />
+        <param name="DatePattern" value="'.'yyyy-MM-dd" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                value="[%d{MM/dd/yyyy HH:mm:ss,SSS}][%5p][%C] %m%n" />
+        </layout>
+    </appender>
+
+    <!-- ASSOCIATE APPENDERS TO CATEGORIES -->
+    <!-- 1. Category 1: Application Errors -->
+    <logger name="ApplicationErrors" additivity="false">
+        <level value="INFO" />
+        <!-- Add Your Appenders Here -->
+        <appender-ref ref="apperrors" />
+        <!-- <appender-ref ref="apperrorsEMAIL"/> -->
+    </logger>
+
+    <!-- 2. Category 2: Administrative Events -->
+    <logger name="AdministrativeEvents" additivity="false">
+        <level value="INFO" />
+        <!-- Add Your Appenders Here -->
+        <appender-ref ref="adminevents" />
+    </logger>
+
+    <!-- 3. Category 3: Application Events -->
+    <logger name="ApplicationAuditEvents" additivity="false">
+        <level value="INFO" />
+        <!-- Add Your Appenders Here -->
+        <appender-ref ref="appevents" />
+    </logger>
+
+    <!-- 
+    This is kind of Default Logger and can be used for tomcat, apache, 
+    other's logging purposes. 
+    -->
+    <root>
+        <priority value="INFO" />
+        <appender-ref ref="allOtherMessagesThatAreNotHandled" />
+    </root>
+
+</log4j:configuration>
